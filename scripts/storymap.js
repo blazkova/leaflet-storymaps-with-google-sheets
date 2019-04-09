@@ -269,7 +269,7 @@ $(window).on('load', function() {
           // Fly to the new marker destination if latitude and longitude exist
           if (chapters[i]['Latitude'] && chapters[i]['Longitude']) {
             var zoom = chapters[i]['Zoom'] ? chapters[i]['Zoom'] : CHAPTER_ZOOM;
-            map.flyTo([chapters[i]['Latitude'], chapters[i]['Longitude']], zoom);
+            map.flyTo([chapters[i]['Latitude'], chapters[i]['Longitude'], zoom);
           }
 
           // No need to iterate through the following chapters
