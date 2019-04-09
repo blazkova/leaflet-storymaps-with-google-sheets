@@ -297,7 +297,7 @@ $(window).on('load', function() {
         color: " + trySetting('_narrativeText', 'black') + "; \
       }\
       a, a:visited, a:hover {\
-        color: " + trySetting('_narrativeLink', 'red
+        color: " + trySetting('_narrativeLink', 'blue'
                               ') + " \
       }\
       .in-focus {\
