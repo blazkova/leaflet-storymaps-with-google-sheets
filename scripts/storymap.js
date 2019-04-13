@@ -96,6 +96,8 @@ $(window).on('load', function() {
 
     var markers = [];
     changeMarkerColor = function(n, from, to) {
+      
+      console.log(markers[n]);
       markers[n]._icon.className = markers[n]._icon.className.replace(from, to);
     }
 
