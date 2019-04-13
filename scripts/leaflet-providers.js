@@ -92,6 +92,8 @@
 			L.TileLayer.prototype.initialize.call(this, provider.url, layerOpts);
 		}
 	});
+	
+	var center = SMap.Coords.fromWGS84(17.1, 49.6);
 
 	/**
 	 * Definition of providers.
